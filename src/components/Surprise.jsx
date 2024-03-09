@@ -31,11 +31,11 @@ const Surprise = () => {
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
 					exit={{ opacity: 0 }}
-					transition={{ duration: 5, delay: 45 }}
+					transition={{ duration: 5, delay: 44.5 }}
 				>
-					<h1 className="fixed top-1/2 left-1/2 text-center transform -translate-x-1/2 -translate-y-1/2 text-[13rem] w-full font-black text-white z-[999]">EU TE AMO!</h1>
+					<h1 className="fixed top-1/2 left-1/2 text-center transform -translate-x-1/2 -translate-y-1/2 text-[5rem] lg:text-[13rem] w-full font-black text-white z-[999]">EU TE AMO!</h1>
 				</motion.div>
-				<div className="z-[100] fixed top-0 left-0 w-screen h-screen bg-primary flex flex-col justify-center items-center gap-20">
+				<div className="z-[100] fixed top-0 left-0 w-screen h-screen bg-primary flex flex-col justify-center items-center gap-8 lg:gap-20">
 					{frases.map((frase, idx) => (
 						<motion.div
 							initial={{ opacity: 1, }}
@@ -49,7 +49,7 @@ const Surprise = () => {
 								exit={{ opacity: 0 }}
 								transition={{ duration: 0.75, delay: (idx + 1.5) * 5 }}
 							>
-								<h1 className="text-3xl font-bold text-white z-[999]">{frase}</h1>
+								<h1 className="text-lg text-center lg:text-3xl font-bold text-white z-[999]">{frase}</h1>
 							</motion.div>
 						</motion.div>
 					))}

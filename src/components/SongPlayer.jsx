@@ -81,18 +81,18 @@ const SongPlayer = ({ surprise }) => {
 	}
 
 	return (
-		<div className="flex flex-col gap-4 fixed top-10 left-10">
+		<div className="flex flex-col gap-4 fixed top-2 left-1/2 transform -translate-x-1/2 lg:translate-x-0 lg:top-10 lg:left-10">
 			<audio ref={audioRef}></audio>
 			<div className="min-w-[15rem] rounded-2xl flex gap-4 items-center justify-start">
 				{state.album !== undefined && (
 					<>
-						<div className="relative disc rounded-full w-20 h-20 bg-cover bg-[#e0e0e0]" style={{ backgroundImage: `url(${currentSong?.coverURL})` }}>
+						<div className="relative disc rounded-full w-20 min-w-[5rem] h-20 bg-cover bg-[#e0e0e0]" style={{ backgroundImage: `url(${currentSong?.coverURL})` }}>
 							<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-4 h-4 rounded-full shadow-md"></div>
 						</div>
 
-						<div className="flex flex-col">
-							<p className="text-lg font-bold text-primary-500 max-w-[250px]">{currentSong.name}</p>
-							<span className="text-sm text-primary-300 leading-3">{currentSong.artist}</span>
+						<div className="flex flex-col w-full">
+							<p className="lg:text-lg text-sm font-bold text-primary-500 w-full lg:max-w-[250px]">{currentSong.name}</p>
+							<span className="text-xs lg:text-sm text-primary-300 leading-3">{currentSong.artist}</span>
 							<small className="text-[#000] opacity-30 text-xs mt-2">{timeString}</small>
 						</div>
 						<div className="flex gap-1">

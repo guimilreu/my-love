@@ -55,7 +55,7 @@ function App() {
 	}
 
 	return (
-		<div className="w-screen h-screen fixed top-0 left-0 overflow-hidden bg-primary-50 flex justify-center items-center">
+		<div className="w-screen h-screen fixed top-0 left-0 px-8 lg:px-0 overflow-hidden bg-primary-50 flex justify-center items-center">
 			<AnimatePresence>
 				<motion.div
 					initial={{ scale: 0.8, opacity: 0.1, translateY: -50 }}
@@ -83,7 +83,7 @@ function App() {
 								<div className="flex flex-col justify-center gap-2 w-full">
 									<span className="mt-4 text-lg text-primary-500 font-bold">Nossos momentos especiais e INESQUECÍVEIS!</span>
 
-									<ScrollShadow className=" h-[600px] relative grid grid-cols-4 gap-2 pr-2">
+									<ScrollShadow className="h-[400px] lg:h-[600px] relative grid grid-cols-2 lg:grid-cols-4 gap-2 pr-2">
 										{data.map((collection, idx) => (idx >= 8 && !viewAll) || (
 											<motion.div
 												initial={{ opacity: 0 }}
