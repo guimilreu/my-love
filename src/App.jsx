@@ -70,7 +70,7 @@ function App() {
 									Oi meu amor!
 								</h1>
 								<p className="max-w-2xl text-primary-400 text-lg text-center">
-									Eu sei que isso aqui é super inesperado, porém eu só queria poder te demonstrar além de palavras o quanto <span className="font-bold">EU TE AMO</span>, e relembrar de todos os nossos momentos!
+									Hoje não é nenhuma data "especial" (entre aspas porque todos os dias contigo são especiais), porém eu só quero poder te demonstrar além de palavras o quanto eu realmente <span className="font-bold">TE AMO</span>, e nos relembrar de todos os nossos momentos INESQUECÍVEIS!
 								</p>
 							</>
 						) : <h1 className="text-4xl font-bold text-primary-500">

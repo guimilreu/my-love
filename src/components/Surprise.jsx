@@ -31,7 +31,7 @@ const Surprise = () => {
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
 					exit={{ opacity: 0 }}
-					transition={{ duration: 5, delay: 44.5 }}
+					transition={{ duration: 5, delay: 44.25 }}
 				>
 					<h1 className="fixed top-1/2 left-1/2 text-center transform -translate-x-1/2 -translate-y-1/2 text-[5rem] lg:text-[13rem] w-full font-black text-white z-[999]">EU TE AMO!</h1>
 				</motion.div>
@@ -47,7 +47,7 @@ const Surprise = () => {
 								initial={{ opacity: 0, }}
 								animate={{ opacity: 1 }}
 								exit={{ opacity: 0 }}
-								transition={{ duration: 0.75, delay: (idx + 1.5) * 5 }}
+								transition={{ duration: 1, delay: ((idx + 1.5) * 5)+5 }}
 							>
 								<h1 className="text-lg text-center lg:text-3xl font-bold text-white z-[999]">{frase}</h1>
 							</motion.div>
@@ -57,7 +57,7 @@ const Surprise = () => {
 
 					<motion.div
 						initial={{ opacity: 0.1, }}
-						animate={{ opacity: 0.4 }}
+						animate={{ opacity: 0.5 }}
 						exit={{ opacity: 0 }}
 						transition={{ duration: 10, delay: 40 }}
 						className="z-[-1]"
