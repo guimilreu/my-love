@@ -173,7 +173,7 @@ const data = [
             },
         ]
     },
-    
+
     {
         index: "anonovo",
         label: "Ano novo e PEDIDO DE NAMORO!",
@@ -356,7 +356,6 @@ const data = [
             },
         ]
     },
-    
     {
         index: "nerdolas",
         label: "Festival Nerdolas",
@@ -451,7 +450,6 @@ const data = [
             },
         ]
     },
-    
     {
         index: "churrasco",
         label: "Churrasquinho no sogrão!",
@@ -486,7 +484,7 @@ const data = [
                 description: "Nossas selfies sempre muito diversas e esquisitas 🐒",
                 url: "https://media.discordapp.net/attachments/1026244827802779689/1215892932905795655/IMG_7955.jpg?ex=65fe6789&is=65ebf289&hm=70f58bf32b7099862e20a5f3ce9f6f178b6630a9c0e634ca024aa95ec0c1b68a&=&format=webp&width=377&height=670",
             },
-            
+
             {
                 description: "AAAAAAAAAAAAAA (mais uma pra coleção)",
                 url: "https://media.discordapp.net/attachments/1026244827802779689/1215892933996183593/IMG_7956.jpg?ex=65fe6789&is=65ebf289&hm=b4cc853df777b2e5b2effd2fe8ad3d04700946d135b74e4e05c92f20ba37464a&=&format=webp&width=503&height=671",
@@ -509,7 +507,6 @@ const data = [
             },
         ]
     },
-    
     {
         index: "2mesversario",
         label: "Nosso mêsversário de 2 meses!!!",
@@ -526,7 +523,7 @@ const data = [
                 description: "Comendo churrossssss AAAAAAAAA delicioso demais, amo compartilhar esses momentos, que mesmo que simples, super especiais e únicos contigo meu amor",
                 url: "https://media.discordapp.net/attachments/1026244827802779689/1215894275120697456/IMG_8036.jpg?ex=65fe68c9&is=65ebf3c9&hm=1481358c1262e7d92567515dbb3f75f5d1d6a39e7054f1b89c0befd485610663&=&format=webp&width=503&height=671",
             },
-            
+
             {
                 description: "Pós churros, também conhecido como: DESTRUINDO a privada da casa da minha namorada.",
                 url: "https://media.discordapp.net/attachments/1026244827802779689/1215894276907597824/5945F934-AB06-4620-A0DE-F2D4B4410545.jpg?ex=65fe68c9&is=65ebf3c9&hm=d4da8630b66eea512598d07df644160b7d5627395a464b4536f91d86e4d3e7dd&=&format=webp&width=377&height=671",
@@ -561,4 +558,156 @@ const data = [
     },
 ]
 
-export default data;
+const songs = [
+    {
+        index: "thesmiths",
+        name: "The Smiths",
+        coverURL: "https://cdns-images.dzcdn.net/images/cover/c6c3376412bb814bafd5913a1ee14493/264x264.jpg",
+        songs: [
+            {
+                name: "Please, Please, Please, Let Me Get What I Want",
+                artist: "The Smiths",
+                coverURL: "https://i.ytimg.com/vi/w3qPMe_cCJk/mqdefault.jpg",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216052765818753075/The_Smiths_-_Please_Please_Please_Let_Me_Get_What_I_Want_Official_Audio.mp3?ex=65fefc64&is=65ec8764&hm=190072bde5501ce433132efab64afeb5ca4a1b928d88532f142a3d1c8421dc2e&"
+            },
+            {
+                name: "Still Ill",
+                artist: "The Smiths",
+                coverURL: "https://i.ytimg.com/vi/b_3oFRcTNHo/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgNShRMA8=&rs=AOn4CLByw6RiVGb4xfn64acSsVOh1DeVVQ",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216054085183082537/The_Smiths_-_Still_Ill_Official_Audio.mp3?ex=65fefd9f&is=65ec889f&hm=76b7c3651a9cd782b82698fe4fc36f02e7c70f6ef1bc3091eb0c0bd1dee4a7c7&"
+            },
+            {
+                name: "This Night Has Opened My Eyes",
+                artist: "The Smiths",
+                coverURL: "https://i.ytimg.com/vi/iWcQqWW3QCI/maxresdefault.jpg",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216054898945294456/The_Smiths_-_This_Night_Has_Opened_My_Eyes_Official_Audio.mp3?ex=65fefe61&is=65ec8961&hm=87ee3072469ade9d59b5d8c1f519bcac429fd4f0cef26c5cb3ff34d6a86fc0c4&"
+            },
+            {
+                name: "There Is A Light That Never Goes Out",
+                artist: "The Smiths",
+                coverURL: "https://i.scdn.co/image/ab67616d0000b273ada101c2e9e97feb8fae37a9",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216056064156372992/The_Smiths_-_There_Is_A_Light_That_Never_Goes_Out_Official_Audio.mp3?ex=65feff76&is=65ec8a76&hm=66bfacfeb6de636a51e9de7d1540387ee131829a9cd7e96fff713f0fb90df49b&"
+            },
+            {
+                name: "This Charming Man",
+                artist: "The Smiths",
+                coverURL: "https://upload.wikimedia.org/wikipedia/en/b/b2/Thischarmingmansingle.PNG",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216056133362520264/The_Smiths_-_This_Charming_Man_Official_Music_Video.mp3?ex=65feff87&is=65ec8a87&hm=6ad0ef4fe84fe8f4cd2efe3f68fe69761d9c8c3d5c2d6ac3d036ba9cfa00459e&"
+            },
+            {
+                name: "Bigmouth Strikes Again",
+                artist: "The Smiths",
+                coverURL: "https://upload.wikimedia.org/wikipedia/en/1/1c/Bigmouth_Strikes_Again.jpg",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216057005593202789/The_Smiths_-_Bigmouth_Strikes_Again_Official_Audio.mp3?ex=65ff0057&is=65ec8b57&hm=a9e7ad2636edab871ac869ee8fad62955d9bb6842af8d9943ea1b8699cedf16a&"
+            },
+            {
+                name: "Girl Afraid",
+                artist: "The Smiths",
+                coverURL: "https://images.genius.com/b5bbd9e6780fb3ca9e78179fc558425a.1000x1000x1.png",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216060285358571560/The_Smiths_-_Girl_Afraid_Official_Audio.mp3?ex=65ff0365&is=65ec8e65&hm=73872a433bc699d652a97356da7556e5936a2fbc03cc8923c6d1ef1fc6241f1c&"
+            },
+        ]
+    },
+    {
+        index: "deftones",
+        name: "Deftones",
+        coverURL: "https://i.scdn.co/image/ab6761610000e5eb4b2da0b72cab26ac518f1f0d",
+        songs: [
+            {
+                name: "Please, Please, Please, Let Me Get What I Want",
+                artist: "Deftones",
+                coverURL: "https://i.scdn.co/image/ab67616d0000b2739bb36ec0850f21845af83b2d",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216061325721993357/Please_Please_Please_Let_Me_Get_What_I_Want_2005_Remaster.mp3?ex=65ff045d&is=65ec8f5d&hm=0da6b8e0d8da8543c38352b6c3405136a6e2596b752ed0148cb8d49d5c98a4f5&"
+            },
+            {
+                name: "Be Quiet and Drive (Far Away)",
+                artist: "Deftones",
+                coverURL: "https://i1.sndcdn.com/artworks-XzlL2i4qWyul-0-t500x500.jpg",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216061487785971752/Be_Quiet_and_Drive_Far_Away.mp3?ex=65ff0484&is=65ec8f84&hm=5a824c13f79652fa307ed6e3a70dce84058ab91774894502cd94dd33c4ba3b3a&"
+            },
+            {
+                name: "My Own Summer (Shove It)",
+                artist: "Deftones",
+                coverURL: "https://akamai.sscdn.co/uploadfile/letras/albuns/e/3/3/3/534231684259884.jpg",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216062590514626661/My_Own_Summer_Shove_It.mp3?ex=65ff058a&is=65ec908a&hm=55ad6e923ab8ca29d3951744461302a099cfe9f9c4c0d300e108df1ee3115a61&"
+            },
+            {
+                name: "Beware",
+                artist: "Deftones",
+                coverURL: "https://lastfm.freetls.fastly.net/i/u/ar0/2157a2d357714eeb8efe81a3b851dad2.jpg",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216062590803906622/Beware.mp3?ex=65ff058a&is=65ec908a&hm=54a10e395d510e6707e88f808bf855fc3e56b92d445683f3ff5771678fca1d21&"
+            },
+            {
+                name: "Change (In the House of Flies)",
+                artist: "Deftones",
+                coverURL: "https://i.scdn.co/image/ab67616d0000b2735c53799f473fa3e1a48c00ed",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216062591160549486/Deftones_-_Change_In_The_House_Of_Flies_Official_Music_Video.mp3?ex=65ff058b&is=65ec908b&hm=cb04bb7b267a7eb95019607f4f3ba21a9da49ced9ade90d93db18435ac2fed25&"
+            },
+            {
+                name: "Sleep Walk",
+                artist: "Deftones",
+                coverURL: "https://lastfm.freetls.fastly.net/i/u/300x300/af6761a3a68047b5b0c95bcbf9b34df0.jpg",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216062591160549486/Deftones_-_Change_In_The_House_Of_Flies_Official_Music_Video.mp3?ex=65ff058b&is=65ec908b&hm=cb04bb7b267a7eb95019607f4f3ba21a9da49ced9ade90d93db18435ac2fed25&"
+            },
+        ]
+    },
+    {
+        index: "brasileiras",
+        name: "Brasileiras",
+        coverURL: "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg",
+        songs: [
+            {
+                name: "Exagerado",
+                artist: "Cazuza",
+                coverURL: "https://upload.wikimedia.org/wikipedia/pt/f/fd/Exagerado.jpg",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216063707831078972/Exagerado.mp3?ex=65ff0695&is=65ec9195&hm=fd35b97aabefa18670cfa52daa1509c820f79cfe374d12e5c7247df74df24c4c&"
+            },
+            {
+                name: "Te Levar Daqui",
+                artist: "Charlie Brown Jr.",
+                coverURL: "https://i.scdn.co/image/ab67616d0000b2730e39e0b5b70d4890aa5e8096",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216063708413956266/Te_Levar_Daqui.mp3?ex=65ff0695&is=65ec9195&hm=27f3e1125187bc4353e469076040a731b6c40f07765cb0cdfd9245f46244e2db&"
+            },
+            {
+                name: "Eu Nunca Disse Adeus",
+                artist: "Capital Inicial",
+                coverURL: "https://www.capitalinicial.com.br/wp-content/uploads/2015/11/capa_eu-nunca-disse-adeus.jpg",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216064342018228356/Eu_Nunca_Disse_Adeus_-_Capital_Inicial.mp3?ex=65ff072c&is=65ec922c&hm=721915e914fbc3de4847bbffe93908d6b495cd97027f1eec8e9765d970acd5d1&"
+            },
+            {
+                name: "Eduardo e Mônica",
+                artist: "Legião Urbana",
+                coverURL: "https://upload.wikimedia.org/wikipedia/pt/b/b8/LegUrb-EeM.jpg",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216064757950582784/Legiao_Urbana_Eduardo_e_Monica.mp3?ex=65ff078f&is=65ec928f&hm=4f20604d9d44c5a4a02e9ef48be2eb903d2692b826868781d15f1b9333753a85&"
+            },
+            {
+                name: "Equalize",
+                artist: "Pitty",
+                coverURL: "https://i.scdn.co/image/ab67616d0000b2739b0c101acbe6a2ea36c480b1",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216064820303106168/Pitty_-_Equalize.mp3?ex=65ff079e&is=65ec929e&hm=ff9b9be99676d39f84b1dbd18f4b3ef32cdcf84709733c8797607a6e3b453201&"
+            },
+            {
+                name: "Aonde Quer Que Eu Vá",
+                artist: "Os Paralamas do Sucesso",
+                coverURL: "https://i.scdn.co/image/ab67616d0000b273af8fa8c7194e5dc629218299",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216065243193675878/Os_Paralamas_do_Sucesso_Aonde_quer_que_eu_va.mp3?ex=65ff0803&is=65ec9303&hm=0d5d1cff751ab680bfd80295fcf5afa36c8ff80369ab2a314624a65e51cc60e8&"
+            },
+            {
+                name: "Dois Rios",
+                artist: "Skank",
+                coverURL: "https://akamai.sscdn.co/uploadfile/letras/albuns/e/3/3/b/16379.jpg",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216065708304371722/Skank_-_Dois_Rios_Audio_Oficial.mp3?ex=65ff0872&is=65ec9372&hm=fa9656f61c2d43bedbfe9c559d2bd70ff36c0edeebb3bb0c8196ad32ced3b6fb&"
+            },
+            {
+                name: "Na sua estante",
+                artist: "Pitty",
+                coverURL: "https://i1.sndcdn.com/artworks-000107961100-ic8ph8-t500x500.jpg",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216066120071643348/Pitty_-_Na_Sua_Estante_Clipe_Oficial.mp3?ex=65ff08d4&is=65ec93d4&hm=4e9564d87905b1247cfa989661d48220c0537187fa5d76f1fd3310e797762203&"
+            },
+        ]
+    },
+    
+]
+
+export { data } ;
+export { songs };

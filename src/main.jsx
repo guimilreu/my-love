@@ -5,11 +5,11 @@ import App from './App.jsx'
 import './assets/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <NextUIProvider>
       <main className="love text-foreground bg-background">
         <App />
       </main>
     </NextUIProvider>
-  </React.StrictMode>,
+  // </React.StrictMode>,
 )
