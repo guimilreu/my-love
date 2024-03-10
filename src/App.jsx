@@ -100,45 +100,45 @@ function App() {
 													<Button color="primary" className="mt-1" onPress={() => openCollection(collection)}>
 														Visualizar
 													</Button>
-
-													<Modal isOpen={isOpen} onOpenChange={onCloseHandler} className="love bg-transparent shadow-none" backdrop="blur">
-														<ModalContent>
-															{(onClose) => (
-																<div className="flex flex-col gap-8">
-																	<div className="flex gap-8 items-center">
-																		<Button isIconOnly onPress={prevImage}>
-																			<ChevronLeft size={16} />
-																		</Button>
-
-																		<div className="flex flex-col gap-2 justify-center items-center text-white/30">
-																			<Image
-																				width={700}
-																				src={currentCollection.images[currentImage].url}
-																			/>
-																			<p>{currentImage + 1}/{currentCollection.images.length}</p>
-																		</div>
-
-																		<Button isIconOnly onPress={nextImage}>
-																			<ChevronRight size={16} />
-																		</Button>
-																	</div>
-																	<p className="text-white w-full text-center text-xl">
-																		{currentCollection.images[currentImage].description}
-																	</p>
-																</div>
-															)}
-														</ModalContent>
-													</Modal>
 												</div>
 											</motion.div>
 										))}
-										{viewAll && <div className="flex flex-col gap-4 bg-primary-300 rounded-2xl shadow-xl justify-center items-center text-center px-5 text-white">
+										<Modal isOpen={isOpen} onOpenChange={onCloseHandler} className="love bg-transparent shadow-none" backdrop="blur">
+											<ModalContent>
+												{(onClose) => (
+													<div className="flex flex-col gap-8">
+														<div className="flex gap-8 items-center">
+															<Button isIconOnly onPress={prevImage}>
+																<ChevronLeft size={16} />
+															</Button>
+
+															<div className="flex flex-col gap-2 justify-center items-center text-white/30">
+																<Image
+																	isZoomed
+																	width={700}
+																	src={currentCollection.images[currentImage].url}
+																/>
+																<p>{currentImage + 1}/{currentCollection.images.length}</p>
+															</div>
+
+															<Button isIconOnly onPress={nextImage}>
+																<ChevronRight size={16} />
+															</Button>
+														</div>
+														<p className="text-white w-full text-center text-xl">
+															{currentCollection.images[currentImage].description}
+														</p>
+													</div>
+												)}
+											</ModalContent>
+										</Modal>
+										{viewAll && <div className="flex flex-col gap-4 bg-primary-300 rounded-2xl shadow-xl justify-center items-center text-center px-6 py-8 text-white col-span-4">
 											<p>Se você chegou aqui é porque está no fim! Espero que tenha gostado muito meu amor, mas perai... acho que tenho mais uma coisinha.</p>
 											<Button color="primary" variant="shadow" onPress={() => setSurprise(true)}>
 												...
 											</Button>
 										</div>}
-										{!viewAll && <Button color="primary" className="absolute left-1/2 -bottom-24 transform -translate-x-1/2" onPress={() => setViewAll(true)}>
+										{!viewAll && <Button color="primary" className="absolute left-1/2 -bottom-28 transform -translate-x-1/2" onPress={() => setViewAll(true)}>
 											Ver mais...
 										</Button>}
 									</ScrollShadow>

@@ -4,7 +4,7 @@ const data = [
         label: "Nos conhecendo...",
         images: [
             {
-                description: "Nossa primeira fotinho juntos...",
+                description: "Nossa primeira fotinho juntos... Mal nós sabíamos tudo o que ainda iria vir pela frente, éramos apenas duas pessoas que haviam acabado de se conhecer pelo Instagram e não tinham certeza nenhuma de qualquer futuro possível...",
                 url: "https://media.discordapp.net/attachments/1026244827802779689/1215747971761700914/IMG_6351.jpg?ex=65fde087&is=65eb6b87&hm=d603fead027ba8c2a73db68f9fd9c1a19730b9af7b9f191f5b89c6ea364b7d46&=&format=webp&width=445&height=593",
             },
             {
@@ -12,11 +12,11 @@ const data = [
                 url: "https://media.discordapp.net/attachments/1026244827802779689/1215747972411687094/IMG_6364.jpg?ex=65fde088&is=65eb6b88&hm=20e6e611142e5b83a5d09acc65171216dc4c5d4ebc3558c008f0c17830f6a831&=&format=webp&width=445&height=593",
             },
             {
-                description: "A primeira vez que nós saimos juntos!!! HEHEHEHE Apesar das demais coisas que aconteceram nesse dia (meu pai etc.), esse foi um dos melhores dias da minha vida sem sobra de dúvidas, onde eu pude te conhecer melhor e me apaixonar por você!",
+                description: "A primeira vez que nós saimos juntos!!! HEHEHEHE Apesar das demais coisas que aconteceram nesse dia (meu pai etc.), esse foi um dos dias que eu mais me recordo na minha vida sem sobra de dúvidas, onde eu pude te conhecer melhor e me apaixonar por você!",
                 url: "https://media.discordapp.net/attachments/1026244827802779689/1215747973204545628/IMG_6378.jpg?ex=65fde088&is=65eb6b88&hm=76c69cc45b03dccc78ce52a827dc03ad1ce948d3c42e2abe6f7d21900b192e7d&=&format=webp&width=445&height=593",
             },
             {
-                description: "Nós super gatos ainda nesse dia 💥💥",
+                description: "Nós super gatos ainda nesse dia e divonicos 💥💥",
                 url: "https://media.discordapp.net/attachments/1026244827802779689/1215747973930156032/IMG_6386.jpg?ex=65fde088&is=65eb6b88&hm=854568309c1620083852573ac3ee4027d748a830521282935a48ee826aca4351&=&format=webp&width=791&height=593",
             },
             {
@@ -40,7 +40,7 @@ const data = [
                 url: "https://media.discordapp.net/attachments/1026244827802779689/1215747978178990102/IMG_6527.jpg?ex=65fde089&is=65eb6b89&hm=11dfd3a015d52563b8fc5685a367fadf030d5bc7525bd511c78c36b5979e6617&=&format=webp&width=503&height=671",
             },
             {
-                description: "A primeira vez que nadamos juntos!! Esse dia foi fodaaa mona",
+                description: "A primeira vez que nadamos juntos aqui em casa!! Esse dia foi fodaaa mona",
                 url: "https://media.discordapp.net/attachments/1026244827802779689/1215747979118510191/IMG_6599.jpg?ex=65fde089&is=65eb6b89&hm=141146be12c5d7cf5b8a999cd98f5501bd2b4f42707634e1d3f776b8c2a39f14&=&format=webp&width=503&height=671",
             },
         ]
@@ -556,6 +556,72 @@ const data = [
             },
         ]
     },
+    {
+        index: "casamento",
+        label: "Casamento Lucas e Rafa",
+        images: [
+            {
+                description: "Amor do céu se prepare para eu te elogiar em TODAS as fotos KDAKODKOKODWAKOADWOK Porque cara, eu menina mais preciosa, mais perfeita, mais linda de todo o mundo!!",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216378389242450000/d09f9de2-9cdc-4b32-9c2f-b8d2bcf67490.jpg?ex=66002ba7&is=65edb6a7&hm=b0910928097ce3a1afe7b7326587a67af95e912ddd500385754b8d5a74192c48&=&format=webp&width=351&height=468",
+            },
+            {
+                description: "Meu sogrão super lindo e chique para o casamento",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216377962966941766/IMG_8150.jpg?ex=66002b41&is=65edb641&hm=dacd83f3bfde89492db0946abb2ead35e86ab929f3f4d11965975e77eac075ce&=&format=webp&width=263&height=468",
+            },
+            {
+                description: "Te beijar é sempre a melhor coisa de todas meu amor, estar contigo é sempre a melhor parte da minha vida e de todos os dias!!!",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216377964753588224/IMG_8163.jpg?ex=66002b42&is=65edb642&hm=72a53fa3eb08e88021aa16c0087145e3047592d353ff4898e176a6fd661dbabb&=&format=webp&width=263&height=468",
+            },
+            {
+                description: "AAAAIIIII QUE SORRISO MAIS LINDO!!!!! Seu sorriso me encanta em um nível meu amor que eu não consigo te explicar de maneira alguma, ver você sorrindo REALMENTE me faz muito mais feliz e muda completamente meus dias, te ver sorrir de felicidade tanto quanto ver você animada, mexe comigo de um jeito gigantescamente!",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216377964153798707/IMG_8155.jpg?ex=66002b41&is=65edb641&hm=12449b2969acedd4e8c40e4bc968272dac1d371a27316bb7fcbf639e1c913059&=&format=webp&width=263&height=468",
+            },
+            {
+                description: "FAZ O L E PULA MONAAASSSSS!!",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216377963637903390/IMG_8154.jpg?ex=66002b41&is=65edb641&hm=1b2e19be6601c61a0316ffd4d420443fba9113e4c7572565ab19fa3e2de0a6a0&=&format=webp&width=351&height=468",
+            },
+            {
+                description: "ESSA FICOU FOFISSIMAAAA!!!! Nós além de muito lindos, somos muito fofos juntos meu amor! De verdade olha isso, qualquer um que ver na rua vai querer roubar a gente, so p apertar nossas bochechinhas de tao fofos que somos.",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216377965311426730/IMG_8170.jpg?ex=66002b42&is=65edb642&hm=1b972c03a3a941fa28e6198d15a4bffab4814c3da8ee7f2cccfc374a4e77e6e6&=&format=webp&width=624&height=468",
+            },
+            {
+                description: "AGORA OLHA ESSA COMBINACAO MONA, SORRISO + NÓS FOFISSIMOS HJEEIAHIUEHEHUAEUHEAUHEAHUHUE EU TE AMOOOOO",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216377965777125387/IMG_8171.jpg?ex=66002b42&is=65edb642&hm=8fb74be43c5cb566f3b7973115dcc167ca5d71bf94bb55ee63656028cbcbcdc1&=&format=webp&width=624&height=468",
+            },
+            {
+                description: "Eu não me canso de falar o quanto seu sorriso é perfeito meu amor, eu sou tão apaixonado em você!",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216377966284509194/IMG_8174.jpg?ex=66002b42&is=65edb642&hm=3ba77e376073c69e8716e4fa85676e8a7fc57a487fd6d42979d12e7237c144fe&=&format=webp&width=624&height=468",
+            },
+            {
+                description: "OIIIIII QUERIDASSSSS MINHA NAMORADA AQUI LINDA",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216377967043674203/IMG_8178.jpg?ex=66002b42&is=65edb642&hm=75c90617d3057d60987863abae79bf1c06a02f0da8bce1efd6dcff57183037d4&=&format=webp&width=624&height=468",
+            },
+            {
+                description: "Eu genuinamente dando muita risada, você me faz tão feliz!!!",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216377967555510384/IMG_8186.jpg?ex=66002b42&is=65edb642&hm=d27ad5e64d370b3713adfcd701f692dc561f57003df8bce08e02de727e4830f1&=&format=webp&width=624&height=468",
+            },
+            {
+                description: "💕💕💕💕💕",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216377967991591033/IMG_8209.jpg?ex=66002b42&is=65edb642&hm=bfa8129e2f8f4a05ba69005e0650b5fe0375a2094904ef7217adf4db4996db8b&=&format=webp&width=351&height=468",
+            },
+            {
+                description: "CRIAAASSSS 💥💥💥💥💥💥",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216378086279610489/IMG_8212.jpg?ex=66002b5e&is=65edb65e&hm=7c2005a6686e977314d07c8241638924f45aa4b0137cc7ec9aed634173a909dc&=&format=webp&width=351&height=468",
+            },
+            {
+                description: "😱😱😱😱😱",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216378087097237674/IMG_8243.jpg?ex=66002b5f&is=65edb65f&hm=cb0ed880ad1e85ddfcf76440f540b421a92fecd32728ffa7befc60abbbca9ebd&=&format=webp&width=351&height=468",
+            },
+            {
+                description: "OLHA QUE PRINCESA MAIS MARAVILHOSA! Que mulher mais incrível, forte, foda, companheira, e que sempre está comigo, que eu mais amo em todo o mundo, eu te amo demais meu amor, demais mesmo!!",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216378087873187992/IMG_8247.jpg?ex=66002b5f&is=65edb65f&hm=9156ab23724a4fb1270b04e58689d97424015c6649ca0d80a9733296e70fcee6&=&format=webp&width=351&height=468",
+            },
+            {
+                description: "Eu ai empreendendor business man",
+                url: "https://media.discordapp.net/attachments/1026244827802779689/1216378088464842762/IMG_8257.jpg?ex=66002b5f&is=65edb65f&hm=5d9cd701f53c2765177ca6129a04c10ebb58ae764e9aa7c2f94629e84b309597&=&format=webp&width=351&height=468",
+            },
+        ]
+    },
 ]
 
 const songs = [
@@ -567,19 +633,19 @@ const songs = [
             {
                 name: "Please, Please, Please, Let Me Get What I Want",
                 artist: "The Smiths",
-                coverURL: "https://i.ytimg.com/vi/w3qPMe_cCJk/mqdefault.jpg",
+                coverURL: "https://akamai.sscdn.co/uploadfile/letras/albuns/b/0/8/0/1757331682516329.jpg",
                 url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216052765818753075/The_Smiths_-_Please_Please_Please_Let_Me_Get_What_I_Want_Official_Audio.mp3?ex=65fefc64&is=65ec8764&hm=190072bde5501ce433132efab64afeb5ca4a1b928d88532f142a3d1c8421dc2e&"
             },
             {
                 name: "Still Ill",
                 artist: "The Smiths",
-                coverURL: "https://i.ytimg.com/vi/b_3oFRcTNHo/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgNShRMA8=&rs=AOn4CLByw6RiVGb4xfn64acSsVOh1DeVVQ",
-                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216054085183082537/The_Smiths_-_Still_Ill_Official_Audio.mp3?ex=65fefd9f&is=65ec889f&hm=76b7c3651a9cd782b82698fe4fc36f02e7c70f6ef1bc3091eb0c0bd1dee4a7c7&"
+                coverURL: "https://i.scdn.co/image/ab67616d0000b273f730f1e8a6ed06e339a70784",
+                url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216054085183082537/The_Smiths_-_Still_Ill_Official_Audio.mp3?ex=65fefd9f&is=65ec889f&hm=76b7c3651a9cd782b82698fe4fc36f02e7c70f6ef1bc3091eb0c0bd1dee4a7c7&",
             },
             {
                 name: "This Night Has Opened My Eyes",
                 artist: "The Smiths",
-                coverURL: "https://i.ytimg.com/vi/iWcQqWW3QCI/maxresdefault.jpg",
+                coverURL: "https://images.genius.com/40c499de334a85d5c296aaae411a08b2.1000x1000x1.jpg",
                 url: "https://cdn.discordapp.com/attachments/1026244827802779689/1216054898945294456/The_Smiths_-_This_Night_Has_Opened_My_Eyes_Official_Audio.mp3?ex=65fefe61&is=65ec8961&hm=87ee3072469ade9d59b5d8c1f519bcac429fd4f0cef26c5cb3ff34d6a86fc0c4&"
             },
             {

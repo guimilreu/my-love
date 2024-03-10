@@ -27,6 +27,7 @@
   height: 10px;
   width: 10px;
 }
+
 *::-webkit-scrollbar-track {
   border-radius: 5px;
   background-color: #fff;
@@ -45,7 +46,12 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.data-\[thumb-hidden\=false\]\:border-x-\[calc\(theme\(spacing\.6\)\/2\)\][data-thumb-hidden=false] {
+  border-right-width: 0 !important;
 }
